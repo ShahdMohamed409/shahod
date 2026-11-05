@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body {
+    background-color:darkcyan;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+}
+
+.navigation ul{
+    display:flex;
+    list-style:none;
+    gap: 2rem;
+}
+
+.navigation a{
+    text-decoration:none;
+    color:#eeeeee;
+}
+
+.navigation a:hover{
+    text-decoration:none;
+    color:#00adb5;
+}
+
+hr{
+    opacity: 10%;
+}
+
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    margin: 5rem auto;
+    align-items:center;
+    max-width: 1200px;
+}
+
+.arrow {
+    position: absolute;
+    transform: translateX(-5.5rem) translateY(1.5rem);
+}
+
+.herosup{
+    display:flex;
+    flex-direction:column;
+    gap: 0.5rem;
+}.name {
+    font-size: 3rem;
+    color:#eeeeee;
+}
+
+.title {
+    font-size: 4rem;
+    color:#00adb5;
+}
+
+.heroBtns{
+    display:flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.hireme {
+    background-color:#00adb5;
+    color:#eeeeee;
+    border-radius: 24px;
+    text-decoration:none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(10, 10, 10, 0.5);
+}
+
+.cv {
+    background-color:#eeeeee;
+    color:#00adb5;
+    border-radius: 24px;
+    text-decoration:none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(10, 10, 10, 0.5);
+    display:flex;
+    align-items:center;
+    gap: 0.5rem;
+    backdrop-filter: blur(4px);
+}
+
+.about {
+    display:flex;
+    justify-content:space-between;
+    margin: 5rem auto;
+    align-items:center;
+    max-width: 1200px;
+    gap: 10rem;
+}
+
+.textcontainer {
+    display:flex;
+    flex-direction:column;
+}
+
+.texttitle {
+  display:flex;
+  align-items:center;
+  gap:5px;
+font-size:2rem;
+}
+
+.aboutName {
+color:#eeeeee;
+}
+
+.aboutTitle {
+    color:#00adb5;
+}
+
+.aboutmePar {
+    text-align:justify;
+    color:rgba(238, 238, 238, 0.75);
+}
+
+.works {
+    background-image: url("assets/svg/background.svg");
+    padding: 10rem 10rem;
+    margin: 5rem 0rem;
+}
+
+.workscontainer {
+    display:flex;
+flex-direction:column;
+justify-content:space-around;
+align-items:lift;
+margin: 5rem auto;
+max-width: 1200px;
+}
+
+.pojecttitle {
+display:flex;
+align-items:center;
+justify-content:left;
+gap:5px;
+font-size:2rem;
+}
+
+.works ul {
+display:flex;
+list-style-type:none;
+align-items:center;
+justify-content:space-between;
+}
+
+.works li {
+     border-radius: 16px;
+    background-color:rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 1rem 4rem;
+}
+    
+
+
+
+
+
+
+
+
+
